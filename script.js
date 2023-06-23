@@ -56,6 +56,11 @@ function addToDos() {
                 toDos.removeChild(container);
             })
         }
+        for (let index = 0; index < toDosArray.length; index++) {
+            if (toDosArray.includes(input.value)) {
+                alert('Дане завдання записано')
+            }
+        }
     }
 }
 
